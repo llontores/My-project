@@ -878,6 +878,9 @@ MonoBehaviour:
   _throwForce: 100
   _missilePrefab: {fileID: 2002795820381085087, guid: 9b80ead57079f26448c150b432e6f61c, type: 3}
   _missileSpawnPoint: {fileID: 2060112581}
+  _springJoint: {fileID: 1379330043}
+  _backThrowForce: 20
+  _startSpringForce: 30
 --- !u!1 &645425816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,7 +2420,7 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: -36.993835
+    min: -0.59643286
     max: 119.93132
     bounciness: 0
     bounceMinVelocity: 0.2
